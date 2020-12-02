@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 input = open("input.txt", "r").read()
 input = input.split('\n')
 for num1 in input:

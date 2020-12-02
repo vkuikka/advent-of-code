@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 input = open("input.txt", "r").read()
 splitted = input.split('\n')
 for i, line in enumerate(splitted):
