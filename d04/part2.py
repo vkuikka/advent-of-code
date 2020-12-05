@@ -2,7 +2,6 @@
 import sys
 def getnum(input_str):
 	num = ''
-	i = 0
 	for c in input_str:
 		if c.isdigit():
 			num += c
