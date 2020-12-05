@@ -31,11 +31,8 @@ for num in all_id:
 	if num < lowest:
 		lowest = num
 
-from random import randint	# Its not stupid if it works
-test = randint(lowest, highest)
-while test in all_id:
-	test = randint(lowest, highest)
-	while ((test + 1 in all_id) == False or
-		(test - 1 in all_id) == False):
-		test = randint(lowest, highest)
-print(test)
+empty_id = []	# array just so I could see if there are multiple empty seats
+for i in range(lowest, highest):
+	if i not in all_id:
+		empty_id.append(i)
+print(empty_id)
