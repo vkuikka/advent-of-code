@@ -1,6 +1,15 @@
 #!/usr/bin/python3
-# f = open("input.txt", "r").read().split("\n")
+
 import itertools
+
+# This is what the letters refer to in get_num()
+#  aaaa
+# b    c
+# b    c
+#  dddd
+# e    f
+# e    f
+#  gggg
 
 def get_num(lets):
 	res = -1
